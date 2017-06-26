@@ -8,23 +8,13 @@
       link: /services/
     - name: Contact
       link: /contact/
-    - name: Advice
-      link: /advice/
 - title: Social
   links:
     - name: Facebook
-      link:
+      link: https://www.facebook.com/zekegeektechnology/
       social_icon: Facebook
       new_window: true
-    - name: Twitter
-      link:
-      social_icon: Twitter
-      new_window: true
-    - name: Google+
-      link:
-      social_icon: Google Plus
-      new_window: true
     - name: LinkedIn
-      link:
+      link: https://www.linkedin.com/company/zekegeek
       social_icon: LinkedIn
       new_window: true
