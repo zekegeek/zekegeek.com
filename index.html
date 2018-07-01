@@ -1,32 +1,18 @@
----
-title:
-call_to_action: Contact
-background_image_path:
-large_header: true
-testimonials:
-  - message: We use Justice Law in all our endeavours. They offer an unparalleled service when it comes to running a business.
-    image: "https://source.unsplash.com/rnkN_XuY1h4/60x60?a=.png"
-    name: Joice Carmold
-  - message: Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.
-    image: "//fillmurray.com/60/60?a=.png"
-    name: Peter Rottenburg
-  - message: Justice Law were everything we could have hoped for when buying our first home. Highly recommended to all.
-    image: "//placebear.com/60/60?a=.png"
-    name: D. and G. Gibbleston
----
-<h1>Under Construction</h1>
-
-<div class="editable">
-	<p>This is the <strong>Justice</strong> template from <a href="http://cloudcannon.com/">CloudCannon</a>. Justice is strong foundation for the web presence of a law firm or business. It's filled with fictitious example content to get you started.</p>
-
-	<p>Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.</p>
-</div>
-
-<div class="testimonials">
-	{% for testimonial in page.testimonials %}
-		<blockquote class="testimonial">
-			<p class="testimonial-message">{{ testimonial.message }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
-		</blockquote>
-	{% endfor %}
-</div>
+<html>
+    <head>
+        <title>zekegeek</title>
+    </head>
+    <body>
+        <h1 title="zekegeek technology consulting services llc">zekegeek</h1>
+        <h2>custom software solutions in boise, idaho</h2>
+        <a href="mailto:info@zekegeek.com">info@zekegeek.com</a>
+        <br />
+        
+        <h3>jason roebuck</h3>
+        <h4>software engineer, geek</h4>
+        <img src="img/jason.jpeg" alt="portrait of jason roebuck" />
+        <p>currently, jason spends most of his work time working with a fantastic team of professionals at the idaho department of labor modernizing unemployment insurance benefit systems.</p>
+        <p>in his off time, he's chasing his two young boys and/or his lovely spouse, climbing a mountain, reading, or working on home improvement projects.</p>
+        <p>connect with <a href="https://www.linkedin.com/in/jtroebuck">jason on linkedin</a></p>
+    </body>
+</html>
